@@ -8,28 +8,28 @@ The code in this directory will take the user scripts and compile LaTex files to
 
 
 
-Rscripts and summary
-MakeUpdateDoc_Server1.r - user interface for an assessment based on one model
-MakeUpdateDoc_2Models1.r - user interface for an assessment based on two models
+#Rscripts and summary
++ MakeUpdateDoc_Server1.r - user interface for an assessment based on one model
++ MakeUpdateDoc_2Models1.r - user interface for an assessment based on two models
+#
++ EIEIO_functions.r - functions to produce a stand alone summary report for each stock 
++ EIEIO_functions2Model - functions to produce a stand alone summary report for each stock using 2 models 
+#
++ MakeTexMaps.R - function to produce a pdf of maps made in the ADIOS! database viewer
++ ReName.r - functions to batch rename files required for inclusion in the SASINF database used to display assessment related data products. 
+#
+#BigReport/Rcode
++ MakeBigDoc4.R - harvest and compile results from individual MakeUpdateDoc*.r scripts and create some tables as well as calling the LaTex code to produce the big assessment report for publication.
++ TestChanges.R - simple sandbox 
 
-EIEIO_functions.r - functions to produce a stand alone summary report for each stock 
-EIEIO_functions2Model - functions to produce a stand alone summary report for each stock using 2 models 
-
-MakeTexMaps.R - function to produce a pdf of maps made in the ADIOS! database viewer
-ReName.r - functions to batch rename files required for inclusion in the SASINF database used to display assessment related data products. 
-
-BigReport/Rcode
-MakeBigDoc4.R - harvest and compile results from individual MakeUpdateDoc*.r scripts and create some tables as well as calling the LaTex code to produce the big assessment report for publication.
-TestChanges.R - simple sandbox 
-
-Still to do:
-508 compliance!
+#Still to do:
++ 508 compliance!
 
 Tracking changes to EIEIO_functions here
-# Versioning:
-# 10/2/15 table structure altered to prevent tables being split onto 2 pages
-# 10/14/15 command line interface no longer used. A LaTex file is now written and read by the LaTex compile command
-# 7/9/17 order rearranged to make debugging easier. To debug run from here to ~line 635
+ Versioning:
+ 10/2/15 table structure altered to prevent tables being split onto 2 pages
+ 10/14/15 command line interface no longer used. A LaTex file is now written and read by the LaTex compile command
+ 7/9/17 order rearranged to make debugging easier. To debug run from here to ~line 635
 
 
 
