@@ -1,0 +1,128 @@
+\documentclass[]{report}
+\usepackage{multicol}
+\usepackage[pdftex]{graphicx}
+\usepackage{setspace}
+\usepackage{tabu}
+\usepackage{amsmath}
+\usepackage{longtable}
+\usepackage{pdflscape}
+\usepackage[width=\textwidth]{caption}
+\usepackage{threeparttablex}
+\usepackage{rotating}
+\usepackage{tabularx}
+\usepackage[table]{xcolor}
+\usepackage[showframe=false]{geometry}
+\usepackage{changepage}
+\usepackage{fancyhdr}
+\usepackage{titling}
+\usepackage{datetime}
+\usepackage{adjustbox}
+\usepackage{float}
+\restylefloat{table}
+\setlength{\headheight}{15.2pt}
+\pagestyle{fancy}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\cfoot{\small{\the\year{} Assessment Update of \SPPname{} \Draft{} \\ \thepage}}
+
+
+
+\begin{document}
+
+\input{title_page}
+\raggedright
+
+\noindent
+\normalsize{
+	\textit{				
+		\PreAmb{}
+	}
+}
+\medskip
+
+\normalsize{
+	\SoS{}
+}
+\medskip
+
+%This is one way to squish this table if it is too wide
+%\begin{adjustwidth}{-2cm}{}
+	\input{\MyPathTab/Catch_Status_Table}
+%\end{adjustwidth}
+\medskip
+
+\large{
+	\input{\MyPathTab/BRP_Table}
+}
+\medskip
+
+\normalsize{
+	\Proj{}
+}
+\medskip
+
+\large{
+	\input{\MyPathTab/Proj_Table}
+}
+\medskip
+
+\normalsize{
+	\SpecCmt{}
+}
+\bigskip
+
+\normalsize{
+	\Refr{}
+}
+	\clearpage
+
+
+\begin{figure}
+	\centering	
+	\adjustimage{max size={.95\textwidth}{.8\textheight}}{\MyPathFig/SSB_plot1.png}
+	\captionsetup{singlelinecheck=off}
+	\caption[.]{\figSSBCap{}}
+	\label{SSB_plot1}
+\end{figure}
+\clearpage 
+
+\begin{figure}
+	\centering	
+	\includegraphics[width=\textwidth]{\MyPathFig/F_plot1.png}
+	\captionsetup{singlelinecheck=off}
+	\caption[.]{\figFCap{}}
+	\label{F_plot1}
+\end{figure}
+\clearpage
+
+\begin{figure}
+	\centering	
+	\includegraphics[width=\textwidth]{\MyPathFig/Recruit_plot1.png}
+	\captionsetup{singlelinecheck=off}
+	\caption[.]{\figRecrCap{}}
+	\label{Recr_plot1}
+\end{figure}
+\clearpage
+
+\begin{figure}
+	\centering	
+	\includegraphics[width=\textwidth]{\MyPathFig/FisheryPlot1.png}
+	\captionsetup{singlelinecheck=off}
+	\caption[.]{\figFishCap{}}
+	\label{Fish_plot1}
+\end{figure}
+\clearpage 
+
+\begin{figure}
+	\centering	
+	\includegraphics[width=\textwidth]{\MyPathFig/SurveyPlot1.png}
+	\captionsetup{singlelinecheck=off}
+	\caption[.]{\figSurvCap{}}
+	\label{Surv_plot1}
+\end{figure}
+\clearpage 
+
+
+
+
+\end{document}

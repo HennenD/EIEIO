@@ -1,0 +1,60 @@
+\newcommand{\colspc}{.2cm}
+\newcolumntype{Q}{c@{\hspace{\colspc}}}
+
+\begin{sidewaystable}[ht]
+%\begin{table}
+\captionsetup{width=\textwidth}
+\centering
+\caption{Data used in each assessment. The column heads are US commercial landings (US c-lnd), US commercial discards (US c-dis), US recreational landings (US r-lnd), US recreational discards (US r-dis), Canadian catch (CA cat), Northeast Fisheries Science Center spring, fall and winter surveys (NE S, NE F and NE W), Massachusetts spring and fall surveys (MA S and MA F), Maine/New Hampshire spring and fall surveys (ME/NH S and ME/NH F) and Canadian Department of Fisheries and Oceans February survey (DFO S).} 
+\label{data_used_tab}
+{\small
+\begin{tabular}{l@{\hspace{\colspc}}
+Q 
+Q 
+Q 
+Q 
+Q
+m{1mm} 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+}
+
+\hline
+
+& \multicolumn{5}{c}{\textbf{Catch}} && \multicolumn{8}{c}{\textbf{Surveys}} \\  
+\cline{2-6} \cline{8-15}
+Stock & US c-lnd & US c-dis & US r-lnd & US r-dis & CA Cat && NE S & NE F & NE W & MA S & MA F & ME/NH S & ME/NH F & DFO S \\
+
+\hline
+CODGM & Yes & Yes & Yes & Yes & No && Yes & Yes & No & Yes & No & No & No & No \\
+CODGB & Yes & Yes & Yes & Yes & Yes && Yes & Yes & No & No & No & No & No & Yes \\
+HADGM & Yes & Yes & Yes & Yes & No && Yes & Yes & No & No & No & No & No & No \\
+HADGB & Yes & Yes & No & No & Yes && Yes & Yes & No & No & No & No & No & Yes \\
+YELCCGM & Yes & Yes & No & No & No && Yes & Yes & No & Yes & Yes & Yes & Yes & No \\
+YELSNEMA & Yes & Yes & No & No & No && Yes & Yes & Yes & No & No & No & No & No \\
+FLWGB & Yes & Yes & No & No & Yes && Yes & Yes & No & No & No & No & No & Yes \\
+FLWSNEMA & Yes & Yes & Yes & Yes & No && Yes & Yes & Yes & Yes & No & No & No & No \\
+REDUNIT & Yes & Yes & No & No & No && Yes & Yes & No & No & No & No & No & No \\
+PLAUNIT & Yes & Yes & No & No & Yes && Yes & Yes & No & Yes & Yes & No & No & No \\
+WITUNIT & Yes & Yes & No & No & No && Yes & Yes & No & No & No & No & No & No \\
+HKWUNIT & Yes & Yes & No & No & Yes && Yes & Yes & No & No & No & No & No & No \\
+POLUNIT & Yes & Yes & Yes & Yes & No && Yes & Yes & No & No & No & No & No & No \\
+CATUNIT & Yes & Yes & Yes & No & No && Yes & Yes & No & Yes & No & No & No & No \\
+HALUNIT & Yes & Yes & No & No & Yes &&  No & Yes & No & No & No & No & No & No \\
+FLDGMGB & Yes & Yes & No & No & No && No & Yes & No & No & No & No & No & No \\
+FLDSNEMA & Yes & Yes & No & No & No &&  No & Yes & No & No & No & No & No & No \\
+OPTUNIT & Yes & Yes & No & No & No && Yes & No & No & No & No & No & No & No \\
+FLDWGM & Yes & Yes & Yes & Yes & No && Yes & Yes & No & Yes & Yes & Yes & Yes & No \\
+YELGB & Yes & Yes & No & No & Yes &&  Yes & Yes & No & No & No & No & No & Yes \\
+   \hline
+\end{tabular}
+}
+
+\end{sidewaystable}
+%\end{table}

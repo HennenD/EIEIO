@@ -1,0 +1,595 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.6.7)  22 JUL 2014 10:13
+entering extended mode
+ %&-line parsing enabled.
+**\def\term_yr{2011}\def\MyPathTab{/home/dhennen/EIEIO/tables}\def\MyPathFig{/h
+ome/dhennen/EIEIO/figures}\def\figFishCap{Total catch of Gulf of Maine Atlantic
+ cod between 1982 and 2011 by fleet (commercial and recreational) and dispositi
+on (landings and discards).}\def\figSSBCap{Estimated trends in the spawning sto
+ck biomass of Gulf of Maine Atlantic cod between 1982 and 2011 from the current
+ (solid line) and previous (dashed line) assessment and the corresponding $SSB_
+{threshold}$ ($\dfrac{1}{2}$ $SSB_{MSY}$; horizontal dashed line) as well as $S
+SB_{target}$ $SSB_{MSY}$; horizontal dotted line) based on the 2011 assessment.
+ The 90\% lognormal confidence intervals are shown.}\def\figFCap{Estimated tren
+ds in the fully selected fishing mortality ($F_{Full}$) of Gulf of Maine Atlant
+ic cod between 1982 and 2011 from the current (solid line) and previous (dashed
+ line) assessment and the corresponding $F_{threshold}$ (0.18; dashed line) as 
+well as $F_{target}$ (0.8 * $F_{MSY}$; dotted line) based on the 2011 assessmen
+t. The 90\% lognormal confidence intervals are shown.}\def\figRecrCap{Estimated
+ trends in age 1 recruitment (000s) of Gulf of Maine Atlantic cod between 1982 
+and 2011 from the current (solid line) and previous (dashed line) assessment. T
+he 90\% lognormal confidence intervals are shown.}\def\figSurvCap{Indices of bi
+omass for the Gulf of Maine Atlantic cod between 1970 and 2012 for the Northeas
+t Fisheries Science Center (NEFSC) spring and fall bottom trawl surveys and Mas
+sachusetts Department of Marine Fisheries (MADMF) spring bottom trawl survey. T
+he 90\% lognormal confidence intervals are shown.}\def\PreAmb{This assessment o
+f the Gulf of Maine Atlantic cod (\textit{Gadus morhua}) stock is an update of 
+the existing 2010 benchmark assessment (NEFSC 2010). This assessment updates co
+mmercial and recreational fishery catch data, research survey indices of abunda
+nce, and the analytical assessment models through 2011 . Additionally, stock pr
+ojections have been updated through 2015 . Reference points have not been updat
+ed. In what follows, there are two population assessment models, etc.}\def\SoS{
+ \textbf{State of Stock:} Gulf of Maine Atlantic cod (\textit{Gadus morhua}) st
+ock is overfished and overfishing is occurring (Figures \ref{SSB_plot1}-\ref{F_
+plot1}) . Spawning stock biomass (SSB) in 2011 was estimated to be 9,903 (mt) w
+hich is 18\% of the $SSB_{MSY}$ proxy (54,743; Figure \ref{SSB_plot1}). The 201
+1 fully selected fishing mortality was estimated to be 0.86 which is 478\% of t
+he $F_{MSY}$ proxy (0.18; Figure \ref{F_plot1}).}\def\Proj{ \textbf{Projections
+:} Short term projections sampled from a cumulative distribution function deriv
+ed from ASAP estimated age 1 recruitment between 1982 and 2009. Recruitments in
+ 2010 and 2011 were not included due to high variance. No retrospective adjustm
+ents was applied in the projections. The model adjusts projected recruitment wh
+en SSB falls below the ... More species specific information here ....}\def\Spe
+cCmt{ \textbf{Special Comments:} \begin{itemize} \item Since the middle 1990s t
+he distribution of cod has become increasingly concentrated in the western part
+ of the Gulf, with a gradual loss of cod from the coastal and central Gulf. \it
+em Since the middle 2000s the fishing fleet has become particularly concentrate
+d in a small region of the western Gulf due to a fince scale aggregation of cod
+ in an area where their prey (sand lance) were increasingly available. This bia
+ses the fishery CPUE as an indicator of the abundance of the stock as a whole. 
+\item If recent weak recruitment of Gulf cod continues, productivity and rebuil
+ding of the stock will be less than projected. \item The NEFSC 2011 fall and 20
+12 spring survey abundance indices were the 4$^{th}$ and lowest in their respec
+tive time series. The MADMF 2012 spring survey index was also the lowest in its
+ time series. As the 2012 observations were not incorporated into the assessmen
+t, the projections are likely to be optomistic. \end{itemize} }\def\Refr{ \text
+bf{References:} \linebreak Northeast Fisheries Science Center. 2013. 55$^{th}$ 
+Northeast Regional Stock Assessment Workshop (55$^{th}$ SAW) Assessment Summary
+ Report. US Dept Commer, Northeast Fish Sci Cent Ref Doc. 13-01; 41 p. Availabl
+e from: National Marine Fisheries Service, 166 Water Street, Woods Hole, MA 025
+43-1026, or online at http://www.nefsc.noaa.gov/nefsc/publications/ \linebreak 
+\linebreak Northeast Fisheries Science Center. 2010. 52$^{nd}$ Northeast Region
+al Stock Assessment Workshop (52$^{nd}$ SAW) Assessment Summary Report. US Dept
+ Commer, Northeast Fish Sci Cent Ref Doc. 10-01; 40 p. Available from: National
+ Marine Fisheries Service, 166 Water Street, Woods Hole, MA 02543-1026, or onli
+ne at http://www.nefsc.noaa.gov/nefsc/publications/ }\def\Draft{Draft Working P
+aper for Peer Review Only}\def\SPPname{Gulf of Maine Atlantic cod}\input{MakeUp
+date1.tex}
+(./MakeUpdate1.tex (/usr/share/texmf-texlive/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/tools/multicol.sty
+Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
+\c@tracingmulticols=\count88
+\mult@box=\box26
+\multicol@leftmargin=\dimen103
+\c@unbalance=\count89
+\c@collectmore=\count90
+\doublecol@number=\count91
+\multicoltolerance=\count92
+\multicolpretolerance=\count93
+\full@width=\dimen104
+\page@free=\dimen105
+\premulticols=\dimen106
+\postmulticols=\dimen107
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count94
+\c@finalcolumnbadness=\count95
+\last@try=\dimen108
+\multicolovershoot=\dimen109
+\multicolundershoot=\dimen110
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count96
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+(/usr/share/texmf-texlive/tex/latex/setspace/setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) (/usr/share/texmf-texlive/tex/latex/tabu/tabu.sty
+Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
+
+(/usr/share/texmf-texlive/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen113
+\extrarowheight=\dimen114
+\NC@list=\toks15
+\extratabsurround=\skip45
+\backup@length=\skip46
+)
+(/usr/share/texmf-texlive/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box52
+\sift@deathcycles=\count97
+\@vwid@loff=\dimen115
+\@vwid@roff=\dimen116
+)
+\c@taburow=\count98
+\tabu@nbcols=\count99
+\tabu@cnt=\count100
+\tabu@Xcol=\count101
+\tabu@alloc=\count102
+\tabu@nested=\count103
+\tabu@target=\dimen117
+\tabu@spreadtarget=\dimen118
+\tabu@naturalX=\dimen119
+\tabucolX=\dimen120
+\tabu@Xsum=\dimen121
+\extrarowdepth=\dimen122
+\abovetabulinesep=\dimen123
+\belowtabulinesep=\dimen124
+\tabustrutrule=\dimen125
+\tabu@thebody=\toks16
+\tabu@footnotes=\toks17
+\tabu@box=\box53
+\tabu@arstrutbox=\box54
+\tabu@hleads=\box55
+\tabu@vleads=\box56
+\tabu@cellskip=\skip47
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip48
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks18
+\ex@=\dimen126
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen127
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count104
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count105
+\leftroot@=\count106
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count107
+\DOTSCASE@=\count108
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box57
+\strutbox@=\box58
+\big@size=\dimen128
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count109
+\c@MaxMatrixCols=\count110
+\dotsspace@=\muskip10
+\c@parentequation=\count111
+\dspbrk@lvl=\count112
+\tag@help=\toks19
+\row@=\count113
+\column@=\count114
+\maxfields@=\count115
+\andhelp@=\toks20
+\eqnshift@=\dimen129
+\alignsep@=\dimen130
+\tagshift@=\dimen131
+\tagwidth@=\dimen132
+\totwidth@=\dimen133
+\lineht@=\dimen134
+\@envbody=\toks21
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf-texlive/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip51
+\LTright=\skip52
+\LTpre=\skip53
+\LTpost=\skip54
+\LTchunksize=\count116
+\LTcapwidth=\dimen135
+\LT@head=\box59
+\LT@firsthead=\box60
+\LT@foot=\box61
+\LT@lastfoot=\box62
+\LT@cols=\count117
+\LT@rows=\count118
+\c@LT@tables=\count119
+\c@LT@chunks=\count120
+\LT@p@ftn=\toks23
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Landscape pages in PDF (HO)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 75.
+
+(/usr/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+))
+(/usr/share/texmf-texlive/tex/latex/caption/caption.sty
+Package: caption 2009/10/09 v3.1k Customizing captions (AR)
+
+(/usr/share/texmf-texlive/tex/latex/caption/caption3.sty
+Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
+\captionmargin=\dimen136
+\captionmargin@=\dimen137
+\captionwidth=\dimen138
+\caption@indent=\dimen139
+\caption@parindent=\dimen140
+\caption@hangindent=\dimen141
+)
+\c@ContinuedFloat=\count121
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texmf-texlive/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2008/03/28 v1.2 longtable captions (AR)
+))
+(/usr/share/texmf-texlive/tex/latex/threeparttablex/threeparttablex.sty
+Package: threeparttablex 2009/08/23 v0.04 by daleif
+
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box63
+)
+(/usr/share/texmf-texlive/tex/latex/environ/environ.sty
+Package: environ 2008/06/18 v0.2 A new way to define environments
+)
+\TPTL@width=\skip55
+)
+(/usr/share/texmf-texlive/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count122
+\rotFPtop=\skip56
+\rotFPbot=\skip57
+\rot@float@box=\box64
+\rot@mess@toks=\toks24
+)
+(/usr/share/texmf-texlive/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+\TX@col@width=\dimen142
+\TX@old@table=\dimen143
+\TX@old@col=\dimen144
+\TX@target=\dimen145
+\TX@delta=\dimen146
+\TX@cols=\count123
+\TX@ftn=\toks25
+)
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texmf-texlive/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
+\everycr=\toks26
+\minrowclearance=\skip58
+)
+\rownum=\count124
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
+Package: geometry 2008/12/21 v4.2 Page Geometry
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count125
+\Gm@cntv=\count126
+\c@Gm@tempcnt=\count127
+\Gm@bindingoffset=\dimen147
+\Gm@wd@mp=\dimen148
+\Gm@odd@mp=\dimen149
+\Gm@even@mp=\dimen150
+\Gm@dimlist=\toks27
+)
+(/usr/share/texmf-texlive/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count128
+\cp@tempcnt=\count129
+)
+(/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip59
+\f@ncyO@elh=\skip60
+\f@ncyO@erh=\skip61
+\f@ncyO@olh=\skip62
+\f@ncyO@orh=\skip63
+\f@ncyO@elf=\skip64
+\f@ncyO@erf=\skip65
+\f@ncyO@olf=\skip66
+\f@ncyO@orf=\skip67
+)
+(/usr/share/texmf-texlive/tex/latex/titling/titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip68
+\thanksmargin=\skip69
+\droptitle=\skip70
+)
+(/usr/share/texmf-texlive/tex/latex/datetime/datetime.sty
+Package: datetime 2007/08/20 v2.55 Date Time Package
+
+(/usr/share/texmf-texlive/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2009/10/02 v1.31
+\c@padzeroesN=\count130
+
+(/usr/share/texmf-texlive/tex/latex/fmtcount/fc-english.def
+File: fc-english 2007/05/26
+)
+(/usr/share/texmf-texlive/tex/latex/fmtcount/fc-USenglish.def
+File: fc-USenglish 2007/06/14
+)
+No configuration file fmtcount.cfg found.
+\@DT@modctr=\count131
+\@ordinalctr=\count132
+\@orgargctr=\count133
+\@strctr=\count134
+\@tmpstrctr=\count135
+\@DT@loopN=\count136
+\@DT@X=\count137
+)
+\@day=\count138
+\@month=\count139
+\@year=\count140
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 167.
+\@dtctr=\count141
+\dayofyear=\count142
+\dayofweek=\count143
+LaTeX Info: Redefining \today on input line 428.
+\c@HOUR=\count144
+\c@HOURXII=\count145
+\c@MINUTE=\count146
+\c@TOHOUR=\count147
+\c@TOMINUTE=\count148
+\dt@a=\toks28
+\dt@b=\toks29
+) (./MakeUpdate1.aux)
+\openout1 = `MakeUpdate1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+ (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count149
+\scratchdimen=\dimen151
+\scratchbox=\box65
+\nofMPsegments=\count150
+\nofMParguments=\count151
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count152
+\MPscratchDim=\dimen152
+\MPnumerator=\count153
+\everyMPtoPDFconversion=\toks31
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: rotating package is loaded.
+Package caption Info: threeparttable package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry auto-detecting driver*
+*geometry detected driver: pdftex*
+-------------------- Geometry parameters
+paper: class default
+landscape: --
+twocolumn: --
+twoside: --
+asymmetric: --
+h-parts: 92.14519pt, 0.7\paperwidth , 92.14519pt (default)
+v-parts: 95.39737pt, 0.7\paperheight , 143.09605pt (default)
+hmarginratio: 1:1
+vmarginratio: 2:3
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: --
+includefoot: --
+includemp: --
+driver: pdftex
+-------------------- Page layout dimensions and switches
+\paperwidth  614.295pt
+\paperheight 794.96999pt
+\textwidth  430.00462pt
+\textheight 556.47656pt
+\oddsidemargin  19.8752pt
+\evensidemargin 19.8752pt
+\topmargin  -13.87262pt
+\headheight 15.2pt
+\headsep    25.0pt
+\footskip   30.0pt
+\marginparwidth 65.0pt
+\marginparsep   11.0pt
+\columnsep  10.0pt
+\skip\footins  9.0pt plus 4.0pt minus 2.0pt
+\hoffset 0.0pt
+\voffset 0.0pt
+\mag 1000
+
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+(./title_page.tex <./NOAA_Transparent_Logo.png, id=1, 493.3632pt x 493.3632pt>
+File: ./NOAA_Transparent_Logo.png Graphic file (type png)
+
+<use ./NOAA_Transparent_Logo.png> [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./NOAA_Transparent_Logo.pn
+g>])
+(/home/dhennen/EIEIO/tables/Catch_Status_Table.tex
+Overfull \hbox (35.85742pt too wide) in alignment at lines 3--18
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+) (/home/dhennen/EIEIO/tables/BRP_Table.tex) [1]
+(/home/dhennen/EIEIO/tables/Proj_Table.tex)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 68.
+
+(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 68.
+ [2]
+</home/dhennen/EIEIO/figures/SSB_plot1.png, id=27, 1444.39626pt x 962.59625pt>
+File: /home/dhennen/EIEIO/figures/SSB_plot1.png Graphic file (type png)
+
+<use /home/dhennen/EIEIO/figures/SSB_plot1.png> [3 </home/dhennen/EIEIO/figures
+/SSB_plot1.png (PNG copy)>]
+</home/dhennen/EIEIO/figures/F_plot1.png, id=31, 1444.39626pt x 962.59625pt>
+File: /home/dhennen/EIEIO/figures/F_plot1.png Graphic file (type png)
+
+<use /home/dhennen/EIEIO/figures/F_plot1.png> [4 </home/dhennen/EIEIO/figures/F
+_plot1.png (PNG copy)>]
+</home/dhennen/EIEIO/figures/Recruit_plot1.png, id=35, 1444.39626pt x 962.59625
+pt>
+File: /home/dhennen/EIEIO/figures/Recruit_plot1.png Graphic file (type png)
+ <use /home/dhennen/EIEIO/figures/Recruit_plot1.png> [5 </home/dhennen/EIEIO/fi
+gures/Recruit_plot1.png (PNG copy)>]
+</home/dhennen/EIEIO/figures/FisheryPlot1.png, id=39, 1444.39626pt x 962.59625p
+t>
+File: /home/dhennen/EIEIO/figures/FisheryPlot1.png Graphic file (type png)
+ <use /home/dhennen/EIEIO/figures/FisheryPlot1.png> [6 </home/dhennen/EIEIO/fig
+ures/FisheryPlot1.png (PNG copy)>]
+</home/dhennen/EIEIO/figures/SurveyPlot1.png, id=44, 962.59625pt x 1155.31625pt
+>
+File: /home/dhennen/EIEIO/figures/SurveyPlot1.png Graphic file (type png)
+ <use /home/dhennen/EIEIO/figures/SurveyPlot1.png>
+
+LaTeX Warning: Float too large for page by 17.60316pt on input line 120.
+
+[7 </home/dhennen/EIEIO/figures/SurveyPlot1.png (PNG copy)>] (./MakeUpdate1.aux
+) ) 
+Here is how much of TeX's memory you used:
+ 5388 strings out of 495061
+ 75660 string characters out of 1182622
+ 176498 words of memory out of 3000000
+ 8459 multiletter control sequences out of 15000+50000
+ 10429 words of font info for 37 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 42i,11n,43p,5727b,343s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sh
+are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-texlive/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
+/cmti10.pfb>
+Output written on MakeUpdate1.pdf (8 pages, 827469 bytes).
+PDF statistics:
+ 89 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+

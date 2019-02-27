@@ -1,0 +1,176 @@
+\documentclass[]{report}
+%\usepackage{multicol}
+%\usepackage[pdftex]{graphicx}
+%\usepackage{setspace}
+%\usepackage{tabu}
+%\usepackage{amsmath}
+%\usepackage{longtable}
+%\usepackage{pdflscape}
+%\usepackage[width=\textwidth]{caption}
+%\usepackage{threeparttablex}
+%\usepackage{rotating}
+%\usepackage{tabularx}
+%usepackage[table]{xcolor}
+%\usepackage[showframe=false]{geometry}
+%\usepackage{changepage}
+%\usepackage{fancyhdr}
+%\usepackage{titling}
+%\usepackage{datetime}
+\usepackage{pdflscape}
+\usepackage{graphicx}
+%\usepackage{subcaption}
+%\usepackage{adjustbox}
+\usepackage{pgfpages}
+\usepackage{pdfpages}
+%\pgfpagesuselayout{4 on 1}[a4paper]
+
+%\setlength{\headheight}{15.2pt}
+%\pagestyle{fancy}
+%\renewcommand{\footrulewidth}{0.4pt}
+
+%\cfoot{\small{\the\year{} Assessment Update of \SPPname{} \Draft{} \\ \thepage}}
+%=========================================================================================
+% SC SC SC SC SC SC SC SC SC SC SC SC SC SC SC SC SC SC SC SC SC SC SC SC SC SC SC SC SC | 
+%=========================================================================================
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\InputPath}{../example_figs} %change this to new path if moving file       
+\newcommand{\scale}{0.5}
+\newcommand{\pages}{1}
+\newcommand{\width}{1.0\textwidth}
+\newcommand{\Mwidth}{0.65\textwidth}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%\includepdf[pages=\pages]{\InputPath/Scallop_Summary.pdf}
+%\begin{landscape}
+\Huge{Landings}
+\begin{figure}[!htb]
+    %\centering
+    \begin{minipage}{\Mwidth}
+        \centering
+        \includegraphics[width=\width]{\InputPath/GOMH_landings.pdf}
+    \end{minipage}%
+    \begin{minipage}{\Mwidth}
+        \centering
+        \includegraphics[width=\width]{\InputPath/GBYTF_landings.pdf}
+    \end{minipage}
+    \begin{minipage}{\Mwidth}
+        \centering
+        \includegraphics[width=\width]{\InputPath/SF_landings.pdf}
+    \end{minipage}
+\end{figure}
+\clearpage
+
+\renewcommand{\Mwidth}{0.6\textwidth}
+\Huge{Landings at Age}
+\begin{figure}[!htb]
+    %\centering
+    \begin{minipage}{\Mwidth}
+        \centering
+        \includegraphics[width=\width]{\InputPath/GOMH_LAA.pdf}
+    \end{minipage}%
+    \begin{minipage}{\Mwidth}
+        \centering
+        \includegraphics[width=\width]{\InputPath/GBYTF_LAA.pdf}
+    \end{minipage}
+    \begin{minipage}{\Mwidth}
+        \centering
+        \includegraphics[width=\width]{\InputPath/SF_LAA.pdf}
+    \end{minipage}
+\end{figure}
+\clearpage
+
+
+\renewcommand{\Mwidth}{0.5\textwidth}
+\Huge{Length Frequencies}
+\begin{figure}[!htb]
+    %\centering
+    \begin{minipage}{\Mwidth}
+        \centering
+        \includegraphics[width=\width]{\InputPath/GOMH_LF.pdf}
+    	\includegraphics[width=\width]{\InputPath/OQ_LF.pdf}
+    \end{minipage}%
+    \begin{minipage}{\Mwidth}
+        \centering
+        \includegraphics[width=\width]{\InputPath/GBYTF_LF.pdf}
+    	\includegraphics[width=\width]{\InputPath/SC_LF.pdf}
+    \end{minipage}    
+\end{figure}
+\clearpage
+
+
+\renewcommand{\Mwidth}{0.6\textwidth}
+\Huge{Weights at Age}
+\begin{figure}[!htb]
+    %\centering
+    \begin{minipage}{\Mwidth}
+        \centering
+        \includegraphics[width=\width]{\InputPath/GOMH_WeightAge.pdf}
+    \end{minipage}%
+    \begin{minipage}{\Mwidth}
+        \centering
+        \includegraphics[width=\width]{\InputPath/GBYTF_WeightAge.pdf}
+    \end{minipage}
+\end{figure}
+\clearpage
+
+
+
+\renewcommand{\Mwidth}{0.6\textwidth}
+\Huge{Survey Indices}
+\begin{figure}[!htb]
+    %\centering
+    \begin{minipage}{\Mwidth}
+        \centering
+        \includegraphics[width=\width]{\InputPath/GOMH_Index.pdf}
+    \end{minipage}%
+    \begin{minipage}{\Mwidth}
+        \centering
+        \includegraphics[width=\width]{\InputPath/GBYTF_Index.pdf}
+    \end{minipage}
+    \begin{minipage}{\Mwidth}
+        \centering
+        \includegraphics[width=\width]{\InputPath/SF_Index.pdf}
+    \end{minipage}
+\end{figure}
+\clearpage
+
+\renewcommand{\Mwidth}{0.5\textwidth}
+\Huge{Maps 1 Plot per Page}
+\begin{figure}[!htb]
+    %\centering
+    \begin{minipage}{\Mwidth}
+        \centering
+        \includegraphics[width=\width]{\InputPath/SC_Map1.pdf}
+    	\includegraphics[width=\width]{\InputPath/GBYTF_Map2.png}
+    \end{minipage}%
+    \begin{minipage}{\Mwidth}
+        \centering
+    	\includegraphics[width=\width]{\InputPath/SS_Map1.pdf}
+        \includegraphics[width=\width]{\InputPath/SS_Map2.pdf}
+    \end{minipage}    
+\end{figure}
+\clearpage
+
+\renewcommand{\Mwidth}{0.5\textwidth}
+\Huge{Maps $>1$ Plot per Page}
+\begin{figure}[!htb]
+    %\centering
+    \begin{minipage}{\Mwidth}
+        \centering
+        \includegraphics[width=\width]{\InputPath/SC_Map2.pdf}
+    	\includegraphics[width=\width]{\InputPath/GBYTF_Map1.pdf}
+    \end{minipage}%
+    \begin{minipage}{\Mwidth}
+        \centering
+        \includegraphics[width=\width]{\InputPath/GOMCOD_map1.pdf}
+    	\includegraphics[width=\width]{\InputPath/SF_Map1.pdf}
+    \end{minipage}    
+\end{figure}
+\clearpage
+
+
+\end{document}

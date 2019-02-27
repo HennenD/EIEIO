@@ -1,0 +1,434 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.6.7)  18 JUL 2014 15:32
+entering extended mode
+ %&-line parsing enabled.
+**title_page.tex
+(./title_page.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+
+! LaTeX Error: Environment titlingpage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{titlingpage}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{center}
+                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2--2
+[] 
+ []
+
+! Undefined control sequence.
+l.3 \includegraphics
+                    [height=2in,keepaspectratio=true]{./NOAA_Transparent_Log...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no A in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3 ...cs[height=2in,keepaspectratio=true]{./NOAA_
+                                                  Transparent_Logo.png}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+! Extra }, or forgotten $.
+l.3 ...ectratio=true]{./NOAA_Transparent_Logo.png}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.4 \vfill
+          
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (96.18991pt too wide) in paragraph at lines 3--4
+ []\OML/cmm/m/it/10 ransparent[]ogo:png$ 
+ []
+
+! Undefined control sequence.
+l.5 \huge
+         {\textbf{\SPPname{}}} \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \SPPname 
+                         
+l.5 \huge{\textbf{\SPPname{}}
+                             } \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.7 \huge
+         {\textit{\textbf{ \the\year{} Assessment Update Report}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (23.64417pt too wide) in paragraph at lines 7--9
+ \OT1/cmr/bx/it/10 2014 
+ []
+
+
+Overfull \hbox (17.66928pt too wide) in paragraph at lines 7--9
+ \OT1/cmr/bx/it/10 As- 
+ []
+
+
+Overfull \hbox (24.07477pt too wide) in paragraph at lines 7--9
+ \OT1/cmr/bx/it/10 sess- 
+ []
+
+
+Overfull \hbox (25.11641pt too wide) in paragraph at lines 7--9
+ \OT1/cmr/bx/it/10 ment 
+ []
+
+
+Overfull \hbox (18.86371pt too wide) in paragraph at lines 7--9
+ \OT1/cmr/bx/it/10 Up- 
+ []
+
+
+Overfull \hbox (20.9942pt too wide) in paragraph at lines 7--9
+ \OT1/cmr/bx/it/10 date 
+ []
+
+
+Overfull \hbox (17.47205pt too wide) in paragraph at lines 7--9
+ \OT1/cmr/bx/it/10 Re- 
+ []
+
+
+Overfull \hbox (20.0998pt too wide) in paragraph at lines 7--9
+ \OT1/cmr/bx/it/10 port 
+ []
+
+! Undefined control sequence.
+l.10 \large
+           {\textbf{U.S. Department of Commerce\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (21.62488pt too wide) in paragraph at lines 14--14
+ []\OT1/cmr/bx/n/10 U.S. 
+ []
+
+
+Overfull \hbox (17.92352pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 De- 
+ []
+
+
+Overfull \hbox (25.02069pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 part- 
+ []
+
+
+Overfull \hbox (25.3957pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 ment 
+ []
+
+
+Overfull \hbox (9.26384pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 of 
+ []
+
+
+Overfull \hbox (27.47208pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 Com- 
+ []
+
+
+Overfull \hbox (29.97209pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 merce 
+ []
+
+
+Overfull \hbox (43.18028pt too wide) in paragraph at lines 14--14
+ []\OT1/cmr/bx/n/10 National 
+ []
+
+
+Overfull \hbox (39.30533pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 Oceanic 
+ []
+
+
+Overfull \hbox (18.36794pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 and 
+ []
+
+
+Overfull \hbox (16.68047pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 At- 
+ []
+
+
+Overfull \hbox (19.16656pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 mo- 
+ []
+
+
+Overfull \hbox (35.6262pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 spheric 
+ []
+
+
+Overfull \hbox (18.91656pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 Ad- 
+ []
+
+
+Overfull \hbox (22.99988pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 min- 
+ []
+
+
+Overfull \hbox (11.56381pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 is- 
+ []
+
+
+Overfull \hbox (18.63184pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 tra- 
+ []
+
+
+Overfull \hbox (19.80545pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 tion 
+ []
+
+
+Overfull \hbox (43.18028pt too wide) in paragraph at lines 14--14
+ []\OT1/cmr/bx/n/10 National 
+ []
+
+
+Overfull \hbox (20.34015pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 Ma- 
+ []
+
+
+Overfull \hbox (19.5902pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 rine 
+ []
+
+
+Overfull \hbox (25.18874pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 Fish- 
+ []
+
+
+Overfull \hbox (23.00822pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 eries 
+ []
+
+
+Overfull \hbox (20.22908pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 Ser- 
+ []
+
+
+Overfull \hbox (19.64574pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 vice 
+ []
+
+
+Overfull \hbox (50.21638pt too wide) in paragraph at lines 14--14
+ []\OT1/cmr/bx/n/10 Northeast 
+ []
+
+
+Overfull \hbox (25.18874pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 Fish- 
+ []
+
+
+Overfull \hbox (23.00822pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 eries 
+ []
+
+
+Overfull \hbox (18.52768pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 Sci- 
+ []
+
+
+Overfull \hbox (22.04156pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 ence 
+ []
+
+
+Overfull \hbox (23.7985pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 Cen- 
+ []
+
+
+Overfull \hbox (14.47911pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 ter 
+ []
+
+
+Overfull \hbox (33.99425pt too wide) in paragraph at lines 14--14
+ []\OT1/cmr/bx/n/10 Woods 
+ []
+
+
+Overfull \hbox (26.40959pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 Hole, 
+ []
+
+
+Overfull \hbox (24.87622pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 Mas- 
+ []
+
+
+Overfull \hbox (50.66356pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 sachusetts 
+ []
+
+! Undefined control sequence.
+<recently read> \monthname 
+                           
+l.16 \textbf{\monthname{}  \the\year{}}
+                                       }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (22.99988pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 2014 
+ []
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.17 \end{center}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{titlingpage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \end{titlingpage}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> title_page.tex
+                  
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 18 strings out of 495061
+ 284 string characters out of 1182622
+ 47108 words of memory out of 3000000
+ 3292 multiletter control sequences out of 15000+50000
+ 4653 words of font info for 17 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 18i,1n,12p,111b,164s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

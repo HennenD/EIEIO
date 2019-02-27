@@ -1,0 +1,60 @@
+\newcolumntype{L}{>{\centering}m{2cm}}
+\newcolumntype{M}{>{\centering}m{2.25cm}}
+\newcolumntype{N}{>{\centering}m{1cm}}
+
+
+\begin{sidewaystable}[ht]  
+	\centering
+	\captionsetup{width=\textwidth}
+	\caption{Assessment type and reference points from previous assessment. Biomass and yield values are in metric tons. \textit{Note: sp=stochastic projection and surv. B = survey biomass.}}
+	\label{Assess_type_tab}
+	\small{	
+	\begin{tabular}{
+	m{2.5cm}@{\hspace{.1cm}}
+	m{1.25cm}@{\hspace{.1cm}}
+	M@{\hspace{.1cm}}   
+	L@{\hspace{.2cm}}
+	N@{\hspace{.2cm}}   
+	L@{\hspace{.1cm}}
+	m{0.75cm}@{\hspace{.1cm}}
+	L@{\hspace{.2cm}}
+	m{1.5cm}@{\hspace{.1cm}}
+	L@{\hspace{.2cm}}
+	m{1.5cm}@{\hspace{0cm}}
+	}
+
+	\hline
+
+Stock & Assess. & Type & F def. & B def. & $F_{MSY}$ type & $F_{MSY}$ value & $B_{MSY}$ type & $B_{MSY}$ value & MSY type & MSY value \\
+\hline
+CODGM(M=.2) & ASAP & age-based & $F_{Full}$ & SSB & $F_{40\%SPR}$ & 0.18 & sp & 47,184 & sp & 7,753 \\
+CODGM($M_{ramp}$) & ASAP & age-based & $F_{Full}$ & SSB & $F_{40\%SPR}$ & 0.18 & sp & 69,621 & sp & 11,388 \\
+CODGB & ASAP & age-based & $F_{Full}$ & SSB & $F_{40\%SPR}$ & 0.18 & sp & 186,535 & sp & 30,622 \\
+HADGM & ASAP & age-based & $F_{Full}$ & SSB & $F_{40\%SPR}$ & 0.46 & sp & 4,108 & sp & 955 \\
+HADGB & VPA & age-based & avg F ages 5-7 & SSB & $F_{40\%SPR}$ & 0.39 & sp & 124,900 & sp & 28,000 \\
+YELCCGOM & VPA & age-based & avg F ages 4-6 & SSB & $F_{40\%SPR}$ & 0.26 & sp & 7,080 & sp & 1,600 \\
+YELSNEMA & ASAP & age-based & avg F ages 4-5 & SSB & $F_{40\%SPR}$ & 0.32 & sp & 2,995 & sp & 773 \\
+FLWGB & VPA & age-based & avg F ages 4-6 & SSB & Fmsy & 0.44 & sp & 8,100 & sp & 3,200 \\
+FLWSNEMA & ASAP & age-based & avg F ages 4-5 & SSB & Fmsy & 0.29 & sp & 43,661 & sp & 11,728 \\
+REDUNIT & ASAP & age-based & $F_{Full}$ & SSB & $F_{50\%SPR}$ & 0.04 & sp & 238,480 & sp & 8,891 \\
+PLAUNIT & VPA & age-based & avg F ages 6-9 & SSB & $F_{40\%SPR}$ & 0.18 & sp & 18,398 & sp & 3,385 \\
+WITUNIT & VPA & age-based & avg F ages 8-11 & SSB & $F_{40\%SPR}$ & 0.27 & sp & 10,051 & sp & 2,075 \\
+HKWUNIT & ASAP & age-based & $F_{Full}$ & SSB & $F_{40\%SPR}$ & 0.20 & sp & 32,400 & sp & 5,630 \\
+POLUNIT & ASAP & age-based & avg F ages 5-7 & SSB & $F_{40\%SPR}$ & 0.27 & sp & 76,879 & sp & 14,791 \\
+CATUNIT & SCALE & length-based & $F_{Full}$ & SSB & $F_{40\%SPR}$ & 0.33 & sp & 1,756 & sp & 261 \\
+HALUNIT & RYM & \centering{surplus production} & \centering{biomass wted F} & B & F0.1 & 0.07 & deterministic & 48,509 & \center{deterministic} & 3,546 \\
+FLDGMGB & AIM & index & $\frac{catch}{surv. B}$ & surv. B & replacement ratio & 0.44 & $\frac{MSY{}\textit{proxy}}{F_{MSY proxy}}$ & 1.60 & median catch 1995-2001 & 700 \\
+FLDSNEMA & AIM & index & $\frac{catch}{surv. B}$ & surv. B & replacement ratio & 2.09 & $\frac{MSY{}\textit{proxy}}{F_{MSY proxy}}$ & 0.24 & median catch 1995-2001 & 500 \\
+OPTUNIT & index & index & $\frac{catch}{surv. B}$ & surv. B & med. $F_{1977-1985}$ & 0.76 & med. surv. $B_{1977-1985}$ & 4.94 & \centering{$F_{MSY}$ * $B_{MSY}$} & 3,754 \\
+FLWGM & empirical & \centering{survey expansion} & $\frac{catch}{B_{30+cm}}$ & surv. B &  \centering{$F_{40\%}$ from YPR} & 0.23 & NA & NA & NA & NA \\
+YELGB & empirical & survey expansion & NA & surv. B & NA & NA & NA & NA & NA & NA \\
+
+
+	\hline
+	\end{tabular}
+}
+\end{sidewaystable}
+
+
+%\centering{7,753 ($M=0.2$) or 11,388 (Mramp)}
+%\centering{47,184 (M=0.2) or 69,621 (Mramp)}

@@ -1,0 +1,124 @@
+\documentclass[]{report}
+\usepackage{multicol}
+\usepackage[pdftex]{graphicx}
+\usepackage{setspace}
+\usepackage{tabu}
+\usepackage{amsmath}
+\usepackage{longtable}
+\usepackage{pdflscape}
+\usepackage[width=\textwidth]{caption}
+\usepackage{threeparttablex}
+\usepackage{rotating}
+\usepackage{tabularx}
+\usepackage[table]{xcolor}
+\usepackage[showframe=false]{geometry}
+\usepackage{changepage}
+\usepackage{fancyhdr}
+\usepackage{titling}
+\usepackage{datetime}
+\usepackage{adjustbox}
+\usepackage{float}
+\restylefloat{table}
+\setlength{\headheight}{15.2pt}
+\setlength\parindent{0pt}
+\pagestyle{fancy}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\headrulewidth}{0pt}
+\cfoot{\small{\the\year{} Assessment Update of \SPPname{} \Draft{} \\ \thepage}}
+
+
+\begin{document}
+
+%titlepage 
+\input{title_page}
+\raggedright
+
+%Preamble
+\textit{\PreAmb{}}
+\medskip
+
+%Status of stock paragraph
+\SoS{}
+\medskip
+
+%Catch table - automatically adjusted to the width of the text on the page
+%\begin{adjustbox}{max width=\pagewidth}
+	\input{\MyPathTab/Catch_Status_Table}
+%\end{adjustbox}
+\medskip
+
+%BRP table
+%\begin{adjustbox}{max width=\textwidth}
+	\input{\MyPathTab/BRP_Table}
+%\end{adjustbox}
+\medskip
+
+%Projection paragraph
+\Proj{}
+\medskip
+
+%Projection table
+%\begin{adjustbox}{max width=\textwidth}
+\input{\MyPathTab/Proj_Table}
+%\end{adjustbox}
+\medskip
+
+%Special comments
+\SpecCmt{}
+\bigskip
+
+%References
+\Refr{}
+\clearpage
+
+%Fig. 1 SSB automatically sized to not exceed the width or heighth of page
+\begin{figure}
+	\centering	
+	\adjustimage{max size={.95\textwidth}{.8\textheight}}{\MyPathFig/SSB_plot1.png}
+	\captionsetup{singlelinecheck=off}
+	\caption[.]{\figSSBCap{}}
+	\label{SSB_plot1}
+\end{figure}
+\clearpage 
+
+%Fi.g 2 F plot
+\begin{figure}
+	\centering	
+	\adjustimage{max size={.95\textwidth}{.8\textheight}}{\MyPathFig/F_plot1.png}
+	\captionsetup{singlelinecheck=off}
+	\caption[.]{\figFCap{}}
+	\label{F_plot1}
+\end{figure}
+\clearpage
+
+\begin{figure}
+	\centering	
+	\adjustimage{max size={.95\textwidth}{.8\textheight}}{\MyPathFig/Recruit_plot1.png}
+	\captionsetup{singlelinecheck=off}
+	\caption[.]{\figRecrCap{}}
+	\label{Recr_plot1}
+\end{figure}
+\clearpage
+
+\begin{figure}
+	\centering	
+	\adjustimage{max size={.95\textwidth}{.8\textheight}}{\MyPathFig/FisheryPlot1.png}
+	\captionsetup{singlelinecheck=off}
+	\caption[.]{\figFishCap{}}
+	\label{Fish_plot1}
+\end{figure}
+\clearpage 
+
+\begin{figure}
+	\centering	
+	\adjustimage{max size={.95\textwidth}{.8\textheight}}{\MyPathFig/SurveyPlot1.png}
+	\captionsetup{singlelinecheck=off}
+	\caption[.]{\figSurvCap{}}
+	\label{Surv_plot1}
+\end{figure}
+\clearpage 
+
+
+
+
+\end{document}

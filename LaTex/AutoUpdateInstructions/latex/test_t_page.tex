@@ -1,0 +1,42 @@
+\documentclass[]{report}
+\usepackage{multicol}
+\usepackage[pdftex]{graphicx}
+\usepackage{setspace}
+\usepackage{tabu}
+\usepackage{amsmath}
+\usepackage{longtable}
+\usepackage{pdflscape}
+\usepackage[width=\textwidth]{caption}
+\usepackage{threeparttablex}
+\usepackage{rotating}
+\usepackage{tabularx}
+\usepackage[table]{xcolor}
+\usepackage[showframe=false]{geometry}
+\usepackage{changepage}
+\usepackage{fancyhdr}
+\usepackage{titling}
+\usepackage{datetime}
+\usepackage{xspace}
+
+
+\setlength{\headheight}{15.2pt}
+\pagestyle{fancy}
+
+\newcommand{\SPPname}{Gulf of Maine Atlantic Cod} 
+\renewcommand{\footrulewidth}{0.4pt}
+\newcommand{\Draft}{Draft Working Paper for Peer Review Only}  %could be blank for final draft
+
+\cfoot{\small{\the\year{} Assessment Update of \SPPname{} \Draft{} \\ \thepage}}
+
+
+\begin{document}
+
+
+\raggedright
+
+\input{title_page}
+
+
+some text goes in here...
+
+\end{document}

@@ -1,0 +1,66 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.6.7)  19 JUN 2014 15:11
+entering extended mode
+ %&-line parsing enabled.
+**\def\term_yr{2011}\def\MyPathTab{/home/dhennen/EIEIO/tables}\def\MyPathFig{/h
+ome/dhennen/EIEIO/figures}\def\figFishCap{Total catch of Gulf of Maine Atlantic
+ cod between 1982 and 2011 by fleet (commercial and recreational) and dispositi
+on (landings and discards).}\def\figSSBCap{Estimated trends in the spawning sto
+ck biomass of Gulf of Maine Atlantic cod between 1982 and 2011 from the current
+ (solid line) and previous (dashed line) assessment and the corresponding $SSB_
+{threshold}$ $ ( \frac{1}{2} SSB_{MSY} $; horizontal dashed line) as well as $ 
+SSB_{target} $ $ (SSB_{MSY}$; horizontal dotted line) based on the 2011 assessm
+ent. The 90\% lognormal confidence intervals are shown.}\def\figFCap{Estimated 
+trends in the fully selected fishing mortality ($F_{full}$) of Gulf of Maine At
+lantic cod between 1982 and 2011 from the current (solid line) and previous (da
+shed line) assessment and the corresponding $F_{threshold}$ $ (F_{MSY} $; dashe
+d line) as well as $ F_{target} $ $ (0.8*F_{MSY}$; dotted line ) based on the 2
+011 assessment. The 90\% lognormal confidence intervals are shown.}\def\figRecr
+Cap{Estimated trends in age 1 recruitment (000's fish) of Gulf of Maine Atlanti
+c cod between 1982 and 2011 from the current (solid line) and previous (dashed 
+line) assessment. The 90\% lognormal confidence intervals are shown.}\def\figSu
+rvCap{Indices of biomass for the Gulf of Maine Atlantic cod between 1970 and 20
+11 for the Northeast Fisheries Science Center (NEFSC) spring and fall bottom tr
+awl surveys and Massachusetts Department of Marine Fisheries (MADMF) spring bot
+tom trawl survey. The 90\% lognormal confidence intervals are shown.}\def\SoS{\
+textbf{State of Stock:} Gulf of Maine Atlantic cod (\textit{Gadus morhua}) stoc
+k is overfished and overfishing is occurring (Figures \ref{SSB_plot1}-\ref{F_pl
+ot1}). Spawning stock biomass (SSB) in 2011 is estimated to be 9,903 (mt) which
+ is 18\% of the $SSB_{MSY}$ proxy (54743; Figure \ref{SSB_plot1}). The 2011 ful
+ly selected fishing mortality was estimated to be 0.86 which is 478\% of the $F
+_{MSY}$ proxy (0.18; Figure \ref{F_plot1}).}\def\Proj{\textbf{Projections:} Sho
+rt term projections sampled from a cumulative distribution function derived fro
+m ASAP estimated age 1 recruitment between 1982 and 2009. Recruitments in 2010 
+and 2011 were not included due to high variance. No retrospective adjustments w
+as applied in the projections. The model adjusts projected recruitment when SSB
+ falls below the ... More species specific information here ....}\def\SpecCmt{\
+textbf{Special Comments:} \begin{itemize}\item Since the middle 1990s the distr
+ibution of cod has become increasingly concentrated in the western part of the 
+Gulf, with a gradual loss of cod from the coastal and central Gulf.\item Since 
+the middle 2000s the fishing fleet has become particularly concentrated in a sm
+all region of the western Gulf due to a fince scale aggregation of cod in an ar
+ea where their prey (sand lance) were increasingly available. This biases the f
+ishery CPUE as an indicator of the abundance of the stock as a whole.\item If r
+ecent weak recruitment of Gulf cod continues, productivity and rebuilding of th
+e stock will be less than projected.\item The NEFSC 2011 fall and 2012 spring s
+urvey abundance indices were the $4^{th}$ and lowest in their respective time s
+eries. The MADMF 2012 spring survey index was also the lowest in its time serie
+s. As the 2012 observations were not incorporated into the assessment, the proj
+ections are likely to be optomistic.\end{itemize}}\def\Refr{$backslash4103backs
+lash{References:} linebreak Northeast Fisheries Science Center. 2013. $55verb
+
+*
+! Emergency stop.
+<*> ...ast Fisheries Science Center. 2013. $55verb
+                                                  
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 14 strings out of 495061
+ 187 string characters out of 1182622
+ 46734 words of memory out of 3000000
+ 3294 multiletter control sequences out of 15000+50000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 4i,0n,1p,1b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

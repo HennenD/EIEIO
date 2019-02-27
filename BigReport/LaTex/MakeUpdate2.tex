@@ -1,0 +1,145 @@
+\documentclass[]{report}
+\usepackage{multicol}
+\usepackage[pdftex]{graphicx}
+\usepackage{setspace}
+\usepackage{tabu}
+\usepackage{amsmath}
+\usepackage{longtable}
+\usepackage{pdflscape}
+%\usepackage[width=\textwidth]{caption}
+\usepackage[width=5in]{caption}   %%%Adjusted 10 5 15
+		\captionsetup[table]{skip=5pt}
+\usepackage{threeparttablex}
+\usepackage{rotating}
+\usepackage{tabularx}
+\usepackage[table]{xcolor}
+\usepackage[showframe=false]{geometry}
+\usepackage{changepage}
+\usepackage{fancyhdr}
+\usepackage{titling}
+\usepackage{datetime}
+\usepackage{adjustbox}
+\usepackage{float}
+\usepackage{textgreek}
+\floatstyle{plaintop}
+%\restylefloat{table}
+%\setlength{\headheight}{15.2pt}
+%\setlength\parindent{0pt}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{1.0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancypagestyle{empty}{%
+  \fancyhf{}% Clear header/footer
+  \fancyhead[C]{\Large{\textbf{\textit{\Draft}}}}% Your journal/note
+}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\headrulewidth}{0pt}
+\cfoot{\small{\the\year{} Assessment update of \SPPname{} \Draft{} \\ \thepage}}
+
+
+\begin{document}
+
+%titlepage 
+\input{title_page}
+\raggedright
+
+%Preamble
+\textit{\PreAmb{}}
+\medskip
+
+%Status of stock paragraph
+\SoS{}
+\medskip
+
+%Catch table - automatically adjusted to the width of the text on the page
+	\input{\MyPathTab/Catch_Status_Table}
+\medskip
+
+%BRP table
+	\input{\MyPathTab/BRP_Table} 
+\medskip
+
+%Projection paragraph
+\Proj{}
+\medskip
+
+%Projection table
+\IfFileExists{\MyPathTab/Proj_Table.tex}{
+	\input{\MyPathTab/Proj_Table}
+}{}  %otherwise do nothing
+\medskip
+
+%Special comments
+\SpecCmt{}
+\bigskip
+
+%References
+\Refr{}
+\clearpage
+
+%Fig. 1 SSB automatically sized to not exceed the width or heighth of page
+\IfFileExists{\MyPathFig/SSB_plot1.png}{
+	\begin{figure}
+		\centering	
+		\adjustimage{max size={.95\textwidth}{.8\textheight}}{\MyPathFig/SSB_plot1.png}
+		\captionsetup{singlelinecheck=off}
+		\caption[.]{\figSSBCap{}}
+		\label{SSB_plot1}
+	\end{figure}
+	\clearpage 
+}{}  %otherwise do nothing
+
+
+%Fig. 2 F plot
+\IfFileExists{\MyPathFig/F_plot1.png}{
+	\begin{figure}
+		\centering	
+		\adjustimage{max size={.95\textwidth}{.8\textheight}}{\MyPathFig/F_plot1.png}
+		\captionsetup{singlelinecheck=off}
+		\caption[.]{\figFCap{}}
+		\label{F_plot1}
+	\end{figure}
+	\clearpage
+}{}  %otherwise do nothing
+
+
+%Fig. 3 Recruit plot - only plot if the file exists
+\IfFileExists{\MyPathFig/Recruit_plot1.png}{ 
+	\begin{figure}
+		\centering	
+		\adjustimage{max size={.95\textwidth}{.8\textheight}}{\MyPathFig/Recruit_plot1.png}
+		\captionsetup{singlelinecheck=off}
+		\caption[.]{\figRecrCap{}}
+		\label{Recr_plot1}
+	\end{figure}
+	\clearpage
+}{}  %otherwise do nothing
+
+%Fig. 4 Catch plot - only plot if the file exists
+\IfFileExists{\MyPathFig/FisheryPlot1.png}{ 
+	\begin{figure}
+		\centering	
+		\adjustimage{max size={.95\textwidth}{.8\textheight}}{\MyPathFig/FisheryPlot1.png}
+		\captionsetup{singlelinecheck=off}
+		\caption[.]{\figFishCap{}}
+		\label{Fish_plot1}
+	\end{figure}
+	\clearpage 
+}{}  %otherwise do nothing
+
+%Fig. 5 Survey plot - only plot if the file exists
+\IfFileExists{\MyPathFig/SurveyPlot1.png}{ 
+	\begin{figure}
+		\centering	
+		\adjustimage{max size={.95\textwidth}{.8\textheight}}{\MyPathFig/SurveyPlot1.png}
+		\captionsetup{singlelinecheck=off}
+		\caption[.]{\figSurvCap{}}
+		\label{Surv_plot1}
+	\end{figure}
+	\clearpage 
+}{}  %otherwise do nothing
+
+
+
+
+\end{document}

@@ -1,0 +1,49 @@
+\documentclass[]{report}
+\usepackage{multicol}
+\usepackage[pdftex]{graphicx}
+\usepackage{setspace}
+\usepackage{tabu}
+\usepackage{amsmath}
+\usepackage{longtable}
+\usepackage{pdflscape}
+\usepackage[width=\textwidth]{caption}
+\usepackage{threeparttablex}
+\usepackage{rotating}
+\usepackage{tabularx}
+\usepackage[table]{xcolor}
+\usepackage[showframe=false]{geometry}
+\usepackage{changepage}
+\usepackage{fancyhdr}
+\usepackage{titling}
+\usepackage{datetime}
+%\usepackage{adjustbox}
+\usepackage{float}
+\restylefloat{table}
+\setlength{\headheight}{15.2pt}
+\pagestyle{fancy}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\newcommand{\MyPathTab}{../tables}
+
+\begin{document}
+%This is one way to squish this table if it is too wide
+%\begin{adjustwidth}{-2cm}{}
+	\input{\MyPathTab/Catch_Status_Table}
+%\end{adjustwidth}
+\medskip
+
+\large{
+	\input{\MyPathTab/BRP_Table}
+}
+\medskip
+
+\large{
+	\input{\MyPathTab/Proj_Table}
+}
+\medskip
+
+
+
+
+
+\end{document}

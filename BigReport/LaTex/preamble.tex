@@ -1,0 +1,108 @@
+%Test combining several pdf doc together...
+\documentclass[10pt]{article}
+\usepackage{multicol}
+\usepackage[pdftex]{graphicx}
+\usepackage{setspace}
+\usepackage{tabu}
+\usepackage{amsmath}
+\usepackage{longtable}
+\usepackage{pdflscape}
+%\usepackage[width=\textwidth]{caption}
+\usepackage[width=5in]{caption}   %%%Adjusted 10 5 15
+		\captionsetup[table]{skip=5pt}
+\usepackage{threeparttablex}
+\usepackage{rotating}
+\usepackage{tabularx}
+\usepackage[table]{xcolor}
+\usepackage[showframe=false]{geometry}
+\usepackage{changepage}
+\usepackage{fancyhdr}
+\usepackage{titling}
+\usepackage{datetime}
+\usepackage{adjustbox}
+\usepackage{float}
+\usepackage{textgreek}
+\usepackage{lastpage}
+\usepackage{pdfpages}
+\floatstyle{plaintop}
+%\restylefloat{table}
+\setlength{\headheight}{15.2pt}
+\setlength\parindent{0pt}
+
+%-----  Styles for section headers-----
+\usepackage{sectsty}                           % Use to change section fonts
+\sectionfont{\raggedright\bfseries\sffamily\large}
+\subsectionfont{\bfseries\sffamily\normalsize}
+\subsubsectionfont{\mdseries\sffamily\normalsize}
+\paragraphfont{\mdseries\sffamily\normalsize}
+\subparagraphfont{\mdseries\sffamily\normalsize}
+\renewcommand{\captionfont}{\mdseries\sffamily\normalsize} %Figure and table caption fonts to match
+
+
+
+%-----Page layout commands-----
+%\usepackage[letterpaper]{geometry}
+%\geometry{height=8.75in,width=7in,marginratio=1:1}
+%----- Paragraph formatting -----
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2.0ex plus 2.0ex minus 1.0ex}
+
+
+%----- Define CRD details -----
+\newcommand{\crdfontfamily}{\sffamily}
+\newcommand{\crdnumber}{15-XXXX}         %reference document number
+\newcommand{\crdauthors}{Northeast Fisheries Science Center} %authors
+\newcommand{\crdauthorsabbrev}{NEFSC}
+\newcommand{\crdtitle}{Stock Assessment Update of 20 Northeast Groundfish Stocks Through 2014} %title
+\newcommand{\crdyear}{2015} %year
+\newcommand{\crddate}{October \crdyear} % DATE
+%citation of crd on 3rd cover page
+\newcommand{\crdciteas}{\crdauthorsabbrev\ \crdyear. \crdtitle. US Dept Commer, Northeast
+Fish Sci Cent Ref Doc. \crdnumber; \pageref*{LastPage} p. Available from: National Marine Fisheries Service,
+166 Water Street, Woods Hole, MA 02543-1026, or online at \href{http://www.nefsc.noaa.gov/nefsc/publications/}{http://www.nefsc.noaa.gov/nefsc/publications/}}
+
+%%%%%%%%%%% BEGIN Hyperref %%%%%%%%%%%%
+\usepackage[colorlinks,bookmarks,bookmarksnumbered,linktocpage]{hyperref}
+\definecolor{colora}{rgb}{0.0, 0.0, 0.7}
+\definecolor{colorb}{rgb}{0.0, 0.4, 0.2}
+\definecolor{colorc}{rgb}{0.5, 0.0, 0.4}
+\hypersetup{pdftitle=Assessment Update of 20 Groundfish Stocks Through 2014}
+\hypersetup{pdfauthor={\crdauthors}}
+\hypersetup{linkcolor=colora}
+\hypersetup{citecolor=colorb}
+\hypersetup{urlcolor=colorc}
+\hypersetup{pdfstartview=Fit}
+\hypersetup{pdfpagemode=none}
+%%%%%%%%%%% END Hyperref %%%%%%%%%%%%
+
+
+%----- Section numbering setup -----
+%begin section numbering at "1"
+\setcounter{section}{0}
+%-Set the paragraph section type to display counter - starts with "B"
+\setcounter{secnumdepth}{5}
+%\renewcommand{\thetable}{B\arabic{table}}
+%\renewcommand{\thefigure}{B\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
+\renewcommand{\thefigure}{\arabic{figure}}
+
+
+%%%%%%%%%%% Begin header - footer definition%%%%%%%%%%%
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+%\fancypagestyle{empty}
+\lhead{ }
+\chead{ }
+\rhead{ }
+%\rhead{\sarcfontfamily \SSS}
+\lfoot{{Groundfish Operational Assessments \the\year{}}}
+%\rfoot{\sarcfontfamily Assessment Report}
+%\rfoot{\textit{Draft report for peer review only}} %for draft document
+\rfoot{\textit{\leftmark}} %adds the section name to the footer (with number)
+%\cfoot{\sarcfontfamily \thepage}
+\cfoot{\thepage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand\sectionmark[1]{\markboth{#1}{}} %hopefully remove the section number from footer!
+%hyphenation suggestions
+\hyphenation{Massachusetts Mass-a-chu-setts}

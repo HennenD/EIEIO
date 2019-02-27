@@ -1,0 +1,88 @@
+\documentclass[]{report}
+\usepackage[pdftex]{graphicx}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{subcaption}
+
+
+
+\begin{document}
+
+
+\section*{LaTex Variables}
+\raggedright
+The following are the R variables created for the EIEIO project that operate in the LaTex world.  You can use any of the following ".tx" variables in R to produce symbols and effects in LaTex.  For example putting $"paste(SSBtarg.tx," = 1035\ (mt)",sep="")"$ into a figure caption variable will eventually produce "$SSB_{target}$ = 1035 (mt)" in that caption in the LaTex summary document.  R variables are as follows:\\  
+\vspace{1cm}
+  Fisheries symbols
+  \\ 
+  SSBMSY.tx $=$ $SSB_{MSY}$ \\
+  FMSY.tx $=$ $F_{MSY}$ \\
+  F30.tx $=$ $F_{30\%}$ \\
+  F35.tx $=$ $F_{35\%}$  \\
+  F40.tx $=$ $F_{40\%}$  \\
+  F45.tx $=$ $F_{45\%}$  \\
+  F50.tx $=$ $F_{50\%}$    \\
+  FFull.tx $=$ $F_{Full}$ \\
+  Ftarg.tx $=$ $F_{target}$ \\ 
+  Fthresh.tx $=$ $F_{threshold}$ \\ 
+  F0.1.tx $=$ $F_{0.1}$    \\
+  SSBMSY.tx $=$ $SSB_{MSY}$ \\
+  SSBtarg.tx $=$ $SSB_{target}$\\  
+  SSBthresh.tx $=$ $SSB_{threshold}$\\ 
+  BMSY.tx $=$ $B_{MSY}$ \\
+  Btarg.tx $=$ $B_{target}$\\  
+  Bthresh.tx $=$ $B_{threshold}$\\    
+  half.tx $=$ $\dfrac{1}{2}$    \\
+  
+  \vspace{1cm}
+  Section headers and miscellaneous stuff 
+	\\  
+  sosHead.tx $=$ \textbf{State of Stock:} \\  
+  ProjHead.tx $=$ \textbf{Projections:}   \\
+  SpecComHead.tx $=$ \textbf{Special Comments:} \begin{itemize}   
+   \item item.tx makes a bullet (requires the commands either "beginitem.tx" or "SpecComHead.tx", as well as enditem.tx) \end{itemize}
+  RefHead.tx $=$ \textbf{References:} \\
+  lbreak.tx $=$ \linebreak  (a line break) \\
+\vspace{1cm} 
+  Figure references
+  \\
+  fig1.2.ref $=$ (Figures \ref{SSB_plot1}-\ref{F_plot1});
+  fig1.ref $=$ Figure \ref{SSB_plot1};
+  fig2.ref $=$ Figure \ref{F_plot1}; 	
+  fig3.ref $=$ Figure \ref{Recr_plot1};	   
+  fig4.ref $=$ Figure \ref{Fish_plot1}; 	
+  fig5.ref $=$ Figure \ref{Surv_plot1}
+
+
+\def\MyPathFig{"/home/dhennen/EIEIO/figures/"}
+
+\begin{figure}
+	\subfloat*{\includegraphics[width = 0.33\textwidth]{\MyPathFig/SSB_plot1.png}}	
+		\caption{SSB plot}	
+		\label{SSB_plot1}
+
+	\subfloat*{\includegraphics[width = 0.33\textwidth]{\MyPathFig/F_plot1.png}}
+		\caption{F plot}	
+		\label{F_plot1}
+
+	\subfloat*{\includegraphics[width = 0.33\textwidth]{\MyPathFig/Recruit_plot1.png}}
+		\caption{Recruit plot}	
+		\label{Recr_plot1}	
+	
+	\subfloat*{\includegraphics[width = 0.33\textwidth]{\MyPathFig/FisheryPlot1.png}}
+		\caption{Removals plot}	
+		\label{Fish_plot1}	
+
+	\subfloat*{\includegraphics[width = 0.33\textwidth]{\MyPathFig/SurveyPlot1.png}}
+		\caption{Survey plot}	
+		\label{Surv_plot1}	
+		
+	%\caption*{Example of plots}
+\label{fig:fig}
+\end{figure}
+
+
+
+  
+\end{document}  
+  

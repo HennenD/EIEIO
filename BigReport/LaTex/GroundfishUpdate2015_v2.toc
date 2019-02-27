@@ -1,0 +1,53 @@
+\contentsline {section}{\numberline {1}Executive Summary}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Process}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Data}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Models}{3}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Results}{3}{subsection.1.4}
+\contentsline {section}{\numberline {2}Gulf of Maine Atlantic cod{} }{25}{section.2}
+\contentsline {subsection}{\numberline {2.1}Reviewer Comments: Gulf of Maine Atlantic cod{}}{29}{subsection.2.1}
+\contentsline {section}{\numberline {3}Georges Bank Atlantic cod{} }{36}{section.3}
+\contentsline {subsection}{\numberline {3.1}Reviewer Comments: Georges Bank Atlantic cod{}}{39}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Methods for estimating catch as proportion of the most recent 3-year average catch}{41}{subsection.3.2}
+\contentsline {section}{\numberline {4}Georges Bank haddock{} }{47}{section.4}
+\contentsline {subsection}{\numberline {4.1}Reviewer Comments: Georges Bank haddock{}}{51}{subsection.4.1}
+\contentsline {section}{\numberline {5}Gulf of Maine haddock{} }{58}{section.5}
+\contentsline {subsection}{\numberline {5.1}Reviewer Comments: Gulf of Maine haddock{}}{61}{subsection.5.1}
+\contentsline {section}{\numberline {6}Cape Cod-Gulf of Maine yellowtail flounder{}}{68}{section.6}
+\contentsline {subsection}{\numberline {6.1}Reviewer Comments: Cape Cod-Gulf of Maine yellowtail flounder{}}{71}{subsection.6.1}
+\contentsline {section}{\numberline {7}Southern New England-Mid Atlantic yellowtail flounder{} }{78}{section.7}
+\contentsline {subsection}{\numberline {7.1}Reviewer Comments: Southern New England-Mid Atlantic yellowtail flounder{}}{82}{subsection.7.1}
+\contentsline {section}{\numberline {8}Georges Bank winter flounder{} }{89}{section.8}
+\contentsline {subsection}{\numberline {8.1}Reviewer Comments: Georges Bank winter flounder{}}{93}{subsection.8.1}
+\contentsline {section}{\numberline {9}Southern New England Mid-Atlantic winter flounder{} }{100}{section.9}
+\contentsline {subsection}{\numberline {9.1}Reviewer Comments: Southern New England Mid-Atlantic winter flounder{}}{103}{subsection.9.1}
+\contentsline {section}{\numberline {10}Gulf of Maine-Georges Bank American plaice{} }{110}{section.10}
+\contentsline {subsection}{\numberline {10.1}Reviewer Comments: Gulf of Maine-Georges Bank American plaice{}}{113}{subsection.10.1}
+\contentsline {section}{\numberline {11}Witch flounder{} }{120}{section.11}
+\contentsline {subsection}{\numberline {11.1}Reviewer Comments: Witch flounder{}}{123}{subsection.11.1}
+\contentsline {section}{\numberline {12}Acadian redfish{} }{130}{section.12}
+\contentsline {subsection}{\numberline {12.1}Reviewer Comments: Acadian redfish{}}{133}{subsection.12.1}
+\contentsline {section}{\numberline {13}White hake{} }{140}{section.13}
+\contentsline {subsection}{\numberline {13.1}Reviewer Comments: White hake{}}{143}{subsection.13.1}
+\contentsline {section}{\numberline {14}Pollock{} }{150}{section.14}
+\contentsline {subsection}{\numberline {14.1}Reviewer Comments: Pollock{}}{154}{subsection.14.1}
+\contentsline {section}{\numberline {15}Atlantic wolffish{} }{161}{section.15}
+\contentsline {subsection}{\numberline {15.1}Reviewer Comments: Atlantic wolffish{}}{164}{subsection.15.1}
+\contentsline {section}{\numberline {16}Atlantic halibut{} }{171}{section.16}
+\contentsline {subsection}{\numberline {16.1}Reviewer Comments: Atlantic halibut{}}{174}{subsection.16.1}
+\contentsline {section}{\numberline {17}Northern windowpane flounder{} }{180}{section.17}
+\contentsline {subsection}{\numberline {17.1}Reviewer Comments: Northern windowpane flounder{}}{182}{subsection.17.1}
+\contentsline {section}{\numberline {18}Southern windowpane flounder{} }{188}{section.18}
+\contentsline {subsection}{\numberline {18.1}Reviewer Comments: Southern windowpane flounder{}}{190}{subsection.18.1}
+\contentsline {section}{\numberline {19}Ocean pout{} }{196}{section.19}
+\contentsline {subsection}{\numberline {19.1}Reviewer Comments: Ocean pout{}}{199}{subsection.19.1}
+\contentsline {section}{\numberline {20}Gulf of Maine winter flounder{} }{205}{section.20}
+\contentsline {subsection}{\numberline {20.1}Reviewer Comments: Gulf of Maine winter flounder{}}{208}{subsection.20.1}
+\contentsline {section}{\numberline {21}Georges Bank yellowtail flounder{} }{214}{section.21}
+\contentsline {subsection}{\numberline {21.1}Reviewer Comments: Georges Bank yellowtail flounder{}}{217}{subsection.21.1}
+\contentsline {section}{\numberline {22}Appendix}{223}{section.22}
+\contentsline {subsection}{\numberline {22.1}Generic terms of reference for operational assessments}{223}{subsection.22.1}
+\contentsline {subsection}{\numberline {22.2}Northeast Regional Coordinating Council letter}{224}{subsection.22.2}
+\contentsline {subsection}{\numberline {22.3}Outreach on 2015 groundfish operational assessments}{227}{subsection.22.3}
+\contentsline {subsection}{\numberline {22.4}Industry statements}{240}{subsection.22.4}
+\contentsline {subsection}{\numberline {22.5}Assessment Oversight Panel summary}{242}{subsection.22.5}
+\contentsline {subsection}{\numberline {22.6}On site participants}{248}{subsection.22.6}
